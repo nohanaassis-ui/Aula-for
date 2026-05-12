@@ -6,7 +6,7 @@ public class ex10 {}
 
     IO.println("Digite 5 notas para saber sua média");
     for(int i = 1 ; i<= 5 ; i++){
-        double notas = sc.nextInt();
+        double notas = sc.nextdouble();
         conta += notas;
 
     }
